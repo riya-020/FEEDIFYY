@@ -1,0 +1,102 @@
+/* Navbar.css */
+.navbar {
+    background-color: #e1f3ff; /* Primary green color */
+    padding: 0.8rem 1.5rem; /* Add some padding for a balanced layout */
+  }
+  .navbar.navbar-dark {
+    background: linear-gradient(45deg, #07631b, #53cfc4); /* Gradient from purple to blue */
+  padding: 0.8rem 1.5rem;
+  }
+  
+  
+  .navbar-brand {
+    font-size: 2.5rem; /* Larger size for the brand */
+    font-family: 'Italic', ; /* Retaining the italic font for branding */
+    color: white; /* Ensuring the brand text is white */
+    font-weight: bold;
+    text-transform: uppercase; /* Modernize the look */
+    letter-spacing: 1px;
+  }
+  
+  .nav-item {
+    font-size: 1.1rem; /* Slightly larger font for items */
+    font-weight: 500;
+  }
+  
+  .nav-link {
+    color: white; /* Default color */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+  }
+  
+  .nav-link:hover {
+    color: #28a745; /* Green on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Slight transparent white background */
+    border-radius: 5px; /* Rounded corners for a modern feel */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove border for the toggle button */
+    background: transparent; /* Transparent background for the toggle */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; /* Change the toggle icon color to white */
+  }
+  
+  .btn {
+    font-size: 1.1rem; /* Slightly larger text for buttons */
+    font-weight: 600; /* Stronger font weight for readability */
+    border-radius: 30px; /* Rounded button edges */
+    padding: 0.6rem 1.2rem; /* Balanced padding */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .btn.bg-white.text-success {
+    background-color: white;
+    color: #28a745; /* Green text color */
+    border: 2px solid #beffcd; /* Green border for outline effect */
+  }
+  
+  .btn.bg-white.text-success:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.05); /* Slight scale-up effect */
+  }
+  
+  .btn.bg-white.text-danger {
+    background-color: white;
+    color: #dc3545; /* Red color */
+    border: 2px solid #dc3545; /* Red border for outline effect */
+  }
+  
+  .btn.bg-white.text-danger:hover {
+    background-color: #dc3545; /* Red background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.05); /* Slight scale-up effect */
+  }
+  
+  .btn.bg-white {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for buttons */
+  }
+  
+  .cart-badge {
+    position: relative;
+    top: -8px;
+    left: -5px;
+    padding: 0.2rem 0.5rem;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 2rem; /* Adjust brand size on smaller screens */
+    }
+  
+    .nav-item {
+      font-size: 1rem; /* Adjust nav item size on smaller screens */
+    }
+  }
+  

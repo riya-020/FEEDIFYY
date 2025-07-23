@@ -1,0 +1,83 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e8e8e8;
+}
+
+.select-qty, .select-size {
+    width: 50px;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    color: #555;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.select-qty:hover, .select-size:hover {
+    background-color: #e0e0e0;
+}
+
+.add-to-cart-btn {
+    padding: 10px 15px;
+    background-color: #6eff90;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #9dffb2;
+}
+
+.add-to-cart-btn:disabled {
+    background-color: #c8d8e6;  /* Greyed-out color when disabled */
+    cursor: not-allowed;  /* Show not-allowed cursor */
+}
+
+.add-to-cart-btn:disabled:hover {
+    background-color: #c3e3ff;  /* No hover effect on disabled state */
+}
+
+.card-img-top {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+hr {
+    margin: 10px 0;
+    border-top: 1px solid #ddd;
+}
