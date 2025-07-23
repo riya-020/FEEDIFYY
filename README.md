@@ -1,2 +1,2 @@
 🚀 Live Demo
-[Click here to view the live site](https://your-project-name.vercel.app)
+[Click here to view the live site](https://feedify.vercel.app)
